@@ -48,9 +48,7 @@
 - Add role to generate and access Cloudwatch logs Creating cloudwatch policy
 
 <img width="1440" alt="Screenshot 2023-05-17 at 1 01 46 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/4f7c5f2f-5efe-4aa6-82e3-c1f74cf77aa1">
-![Screenshot 2023-05-17 at 1 02 05 PM](https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/de405b02-80db-4cf8-baac-b9813c9d8871)
 <img width="1440" alt="Screenshot 2023-05-17 at 1 13 06 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/3349efa2-19d7-4c9c-9f81-5225120ec580">
-![Screenshot 2023-05-17 at 1 02 22 PM](https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/d709cde7-3825-4880-b825-6f563cf9c061)
 
 - Create a lambda_handler function to save the file in json in format and upload it to the bucket
 Schedule the job to run every minute. Stop execution after 3 runs
