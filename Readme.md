@@ -1,4 +1,4 @@
-# AWS_Assignment
+# AWS Assignment
 ## Task1
 - Configure you AWS CLI.<br>
    <pre>aws configure</pre>
@@ -67,11 +67,12 @@ Using amazon lambda, created a function and uploaded the file created above
 
 ## Task 3
 - a. Modify lambda function to accept parameters and return file name Modified lambda function is :
-- b.Create a POST API from API Gateway, pass parameters as request body to Lambda job. Return filename and status code as response.
-- c.Consume API from local machine and pass unique data to lambda.
-- d.Check if cloud watch logs are generated
+- b. Create a POST API from API Gateway, pass parameters as request body to Lambda job. Return filename and status code as response.
+- c. Consume API from local machine and pass unique data to lambda.
+- d. Check if cloud watch logs are generated
 To create a post API to feed to lambda job these steps were followed 
 
+```
 Go to the API Gateway console and click "Create API".
 Select "REST API" and click "Build".
 Choose "New API" and enter a name for your API. Click "Create API".
@@ -83,6 +84,7 @@ Enter the name of your Lambda function in the "Lambda Function" field and click 
 Deploy your API by clicking "Actions" > "Deploy API". Select "New Stage" and enter a name for your stage. Click "Deploy".
 Note the URL of your API endpoint
 
+```
 
 <img width="1440" alt="Screenshot 2023-05-17 at 1 23 44 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/d76249b6-4007-4195-bac8-6d1a764bde25">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 25 41 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/9a2a9e7d-9753-416c-a771-db1eaed76906">
