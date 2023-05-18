@@ -27,9 +27,10 @@
     <pre>aws sts assume-role --role-arn arn:aws:iam::0039*****9674:role/amit --role-session-name my-session --duration-seconds 3600<\pre>
 
 - Make a profile that uses these credentials
-   <pre>  aws configure —profile amit set aws_access_key_id access_key_id
-	 aws configure --profile amit set aws_secret_access_key secret_access_key
-	 aws configure --profile amit set aws_session_token session_token
+<pre>   	aws configure —profile amit set aws_access_key_id access_key_id
+	aws configure --profile amit set aws_secret_access_key secret_access_key
+	aws configure --profile amit set aws_session_token session_token
+</pre>
 
 
 <img width="789" alt="Screenshot 2023-05-17 at 6 56 37 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/2e8332ce-09e2-45c7-9338-00128fb1990d">
