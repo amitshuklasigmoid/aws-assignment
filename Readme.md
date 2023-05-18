@@ -35,7 +35,7 @@
 <img width="789" alt="Screenshot 2023-05-17 at 6 56 37 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/2e8332ce-09e2-45c7-9338-00128fb1990d">
 
 - create an EC2 instance with above role
-    <pre>aws ec2 run-instances --image-id ami-0889a44b331db0194 --instance-type t2.micro --key-name amit --subnet-id subnet-0e5645c5c4574a239 --security-group-ids sg-0f986340ba1b0aaeb --region us-east-1 --profile amit<br>
+    <pre>aws ec2 run-instances --image-id ami-0889a44b331db0194 --instance-type t2.micro --key-name amit-ec2 --subnet-id subnet-0e5645c5c4574a239 --security-group-ids sg-0f986340ba1b0aaeb --region us-east-1 --profile amit<br>
 
 <img width="1440" alt="Screenshot 2023-05-17 at 12 57 25 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/029bbe64-c8af-4602-bee6-43671689997b">
 
