@@ -1,46 +1,20 @@
 # AWS Assignment
 ## Task1
-- Configure you AWS CLI.<br>
+### Part a
+- Created an IAM role as amit with S3 Full Access 
+<img width="1440" alt="Screenshot 2023-05-28 at 11 31 05 AM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/b4ceecc5-c888-4497-bf97-1b96c17700c6">
+
+### Part b
+- Created an ec2-instance as amit-ec2 with amit role that i have created in part a
+<img width="1440" alt="Screenshot 2023-05-28 at 11 34 54 AM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/6093b9f4-354c-4005-a938-deceb66d2a11">
+
+### Part c
+- Configured my AWS CLI using this command<br>
    <pre>aws configure</pre>
-    Then provide Access Key ID, Secret Access Key, Default region name.
+   Then provided Access Key ID and Secret Access Key.
 
-- Create a file policy.json and add the AssumeRolePolicyDocument.<br>
-	<pre>{
-		"Version": "2012-10-17",
-		"Statement": {
-			"Effect": "Allow",
-				"Principal": {
-					"Service": “s3.amazonaws.com”
-					“AWS” : “arn:aws:iam::0039*****9674:user/amit”
-					},
-			"Action": "sts:AssumeRole"
-			}
-		}
-
-- Create an IAM role 
-    <pre>aws iam create-role --role-name amit --assume-role-policy-document file://policy.json</pre>
-
-- Add permission to the role 
-    <pre>aws iam attach-role-policy --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess --role-name amit
-
-- Use this role 
-    <pre>aws sts assume-role --role-arn arn:aws:iam::0039*****9674:role/amit --role-session-name my-session --duration-seconds 3600<\pre>
-
-- Make a profile that uses these credentials
-<pre>   	aws configure —profile amit set aws_access_key_id access_key_id
-	aws configure --profile amit set aws_secret_access_key secret_access_key
-	aws configure --profile amit set aws_session_token session_token
-</pre>
-
-
-<img width="789" alt="Screenshot 2023-05-17 at 6 56 37 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/2e8332ce-09e2-45c7-9338-00128fb1990d">
-
-- create an EC2 instance with above role
-    <pre>aws ec2 run-instances --image-id ami-0889a44b331db0194 --instance-type t2.micro --key-name amit-ec2 --subnet-id subnet-0e5645c5c4574a239 --security-group-ids sg-0f986340ba1b0aaeb --region us-east-1 --profile amit<br>
-
-<img width="1440" alt="Screenshot 2023-05-17 at 12 57 25 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/029bbe64-c8af-4602-bee6-43671689997b">
-
-- create aws bucket from aws CLI
+- Create a S3 bucket from aws CLI using this command
+   <pre>aws s3api create-bucket --bucket amit1616 --region us-east-1 </pre>
 <img width="812" alt="Screenshot 2023-05-17 at 1 00 45 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/619e3663-ca72-44e0-9ace-c7233f69da17">
 
 
