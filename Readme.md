@@ -29,7 +29,6 @@
 Schedule the job to run every minute. Stop execution after 3 runs
 Using amazon lambda, created a function and uploaded the file created above
 <img width="1440" alt="Screenshot 2023-05-17 at 1 04 10 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/818e6e2f-d974-4d11-88af-86e493424eed">
-<img width="1440" alt="Screenshot 2023-05-17 at 1 07 20 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/f85978e8-d55c-4ccb-9245-d903bd291268">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 13 23 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/57f960fd-e719-4667-8248-25aa48ecfe4a">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 13 25 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/5553b9a3-c8f3-4ee2-818f-c01ead7196aa">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 16 14 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/1c40b665-f1b2-4ff3-962a-ab28a5853542">
