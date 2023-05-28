@@ -29,8 +29,7 @@
 Schedule the job to run every minute. Stop execution after 3 runs
 Using amazon lambda, created a function and uploaded the file created above
 <img width="1440" alt="Screenshot 2023-05-17 at 1 04 10 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/818e6e2f-d974-4d11-88af-86e493424eed">
-<img width="1440" alt="Screenshot 2023-05-17 at 1 13 23 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/57f960fd-e719-4667-8248-25aa48ecfe4a">
-<img width="1440" alt="Screenshot 2023-05-17 at 1 13 25 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/5553b9a3-c8f3-4ee2-818f-c01ead7196aa">
+<img width="1440" alt="Screenshot 2023-05-28 at 11 12 02 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/0670a713-43be-44ca-bcbe-a046e56a6da3">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 16 14 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/1c40b665-f1b2-4ff3-962a-ab28a5853542">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 16 30 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/6ff83b73-4152-4382-be8e-545ac92ff0d5">
 <img width="1440" alt="Screenshot 2023-05-17 at 1 16 33 PM" src="https://github.com/amitshuklasigmoid/aws-assignment/assets/122515454/32dbe364-e641-4137-8d9c-87c1ceddb8cb">
